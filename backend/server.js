@@ -5,5 +5,5 @@ const port= process.env.PORT
 const server =http.createServer(app)
 
 server.listen(port,()=>{
-    console.log(`Server is Runing on Port ${port}`)
+    console.log(`Server is Runing port ${port}`)
 })
